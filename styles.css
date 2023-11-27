@@ -1,0 +1,140 @@
+body {
+    background-color: white;
+    max-width: 83%;
+    margin: auto;
+}
+@media screen and (max-width: 1200px) {
+    body {
+        max-width: 95%;
+        margin: auto;
+    }
+}
+a {
+    text-decoration: none;
+}
+.header{
+    text-align: left;
+    display: block;
+}
+.ebay-logo {
+    max-width: 14%;
+    margin: 0;
+    height: auto;
+    display: inline-block;
+}
+h3 {
+    color: #838586;
+    font-family: "Arial", Sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    display: inline-block;
+}
+@media screen and (max-width:1200px) {
+    h3{
+        font-size: 14px;
+    }
+    
+}
+.second-div {
+    align-items: center;
+    text-align: center;
+}
+.ebay-big {
+    display: inline-block;
+    max-width: 43%;
+    box-shadow: 0 10px 20px rgba(0,0,0,.2);
+    border-radius: .3rem;
+}
+@media screen and (max-width: 1200px) {
+   .ebay-big {
+    max-width: 85%;
+   }
+}
+
+.form {
+    margin-top: 3rem;   
+}
+@media screen and (max-width: 1200px) {
+    .form {
+        margin-top: 1rem;
+    }
+}
+
+.form label {
+    color:  #777771;
+    font-size: 1.2rem;
+    display: inline-block;
+    margin-bottom: .5rem;
+    font-weight: bold;
+}
+@media screen and (max-width: 1200px) {
+    .form label {
+        font-size: 1rem;
+    }
+    
+}
+
+.form input {
+    width: 98%;
+    display: inline-block;
+    margin: auto;
+    margin-bottom: .3rem;
+    background-color: #EDEDED;
+    font-size: 12px;
+    font-weight: normal;
+    border: none;
+    border-radius: .3rem;
+    height: 2.2rem;
+}
+
+.enter-code-span {
+    color: red;
+}
+
+#aria {
+    display: inline-block;
+    background-color: #F9E4E8;
+    color: #E04562;
+    width: 98%;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+#opps {
+    display: inline-block;
+    color: #E04562;
+    font-size: 1rem;
+    
+}
+.form button {
+    width: 10%;
+    background-color: #17A8E3;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: .8rem;
+    border: 0;
+    height: 3rem;
+}
+@media screen and (max-width: 1200px) {
+    .form button {
+        font-size: 1rem;
+        height: 2.5rem;
+        width: 100%;
+    }
+}
+p {
+    margin-top: 3.2rem;
+    color: #838586;
+    font-size: 1rem;
+}
+@media screen and (max-width: 1200px) {
+    P {
+        font-size: .6rem;
+        margin-top: 1.5rem;
+        font-weight: normal;
+        color:  #777771;
+    }
+    
+}
+.p-span {
+    color: #0000ff;
+}
